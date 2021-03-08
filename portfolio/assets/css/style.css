@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#f3f3f3;
+}
+header{
+    background-color:#2c2933;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 30px;
+    align-items: center;
+}
+h1{
+    
+    color: white;
+}
+
+nav a{
+    color: cadetblue;
+    margin-left:10px;
+    text-decoration:none;
+}
+nav a:hover{
+
+    color: white;
+    text-decoration: underline;
+}
+.banner{
+    display: flex;
+    background-image: url("../image/banner.jpg");
+    height:200px;
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.banner img{
+    border-radius: 50%;
+    border:2p solid lightblue;
+    margin-right: 128px;
+    margin-top: 10px;
+}
+
+main{
+    display: flex;
+    padding:30px;
+ 
+}
+.detail-header{
+    width:30%;
+    border-right: 2px solid black;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 20px;
+}
+.detail{
+    width: 70%;
+    padding-left: 20px;
+}
+.detail h3{
+    padding: 10px 0;
+}
+.detail h4{
+    padding: 5px 0;
+}
+.detail ul{
+    padding-left: 10px;
+}
+.detail div p:last-child{
+    margin-bottom: 20px;
+}
+
+.detail div p{
+    padding-left: 10px;
+}
+
+/* responsive layout that adapts to my viewport */
+
+@media screen and (max-width:600px){
+    header{
+        background-color: #6c5f8a;
+    }
+    .detail-header{
+        width:100%;
+        text-align: center;
+        border:none;
+        margin-bottom: 20px;
+        padding-right:0px;
+    }
+    .detail{
+        width:100%;
+        padding-left: 0px;
+    }
+    main{
+        flex-direction: column;
+    }
+}
