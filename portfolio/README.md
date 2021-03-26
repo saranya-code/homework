@@ -19,8 +19,8 @@ CSS selectors and properties are consolidated and organized properly in sequenti
 
 
 # Resource links:
-Github repository URL : https://github.com/saranya-code/homework/tree/master/portfolio<br>
-Deployment URL : https://saranya-code.github.io/homework/portfolio/index.html<br>
+Github repository URL : https://github.com/saranya-code/homework/tree/master/portfolio   <br>
+Deployment URL : https://saranya-code.github.io/homework/portfolio/index.html   <br>
 Screenshot :<br>
 ![Webpage Screenshot](./assets/image/Aboutme.png?raw=true)
 ![Webpage Screenshot](./assets/image/contactme.png?raw=true)

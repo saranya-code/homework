@@ -14,7 +14,7 @@ header{
     padding:5px 30px;
     align-items: center;
 }
-h1{
+h2{
     
     color: white;
 }
@@ -23,6 +23,7 @@ nav a{
     color: cadetblue;
     margin-left:10px;
     text-decoration:none;
+    
 }
 nav a:hover{
 
@@ -40,25 +41,24 @@ nav a:hover{
 
 .banner img{
     border-radius: 50%;
-    border:2p solid lightblue;
+    border:2px solid lightblue;
     margin-right: 128px;
     margin-top: 10px;
 }
 
-main{
+/* main{
     display: flex;
     padding:30px;
- 
-}
+} */
 .detail-header{
-    width:30%;
+   
     border-right: 2px solid black;
-    font-size: 30px;
+    font-size: 25px;
     text-align: right;
     padding-right: 20px;
 }
 .detail{
-    width: 70%;
+   font-size: 16px;
     padding-left: 20px;
 }
 .detail h3{
@@ -74,9 +74,9 @@ main{
     margin-bottom: 20px;
 }
 
-.detail div p{
+/* .detail div p{
     padding-left: 10px;
-}
+} */
 
 /* responsive layout that adapts to my viewport */
 
@@ -85,17 +85,24 @@ main{
         background-color: #6c5f8a;
     }
     .detail-header{
-        width:100%;
+        
         text-align: center;
         border:none;
-        margin-bottom: 20px;
-        padding-right:0px;
+        
     }
     .detail{
         width:100%;
         padding-left: 0px;
     }
-    main{
+    /* main{
         flex-direction: column;
-    }
+    } */
+}
+
+.left-navigation div{
+
+border: 1px solid black;
+text-align: center;
+height:200px;
+width:100%
 }
