@@ -7,13 +7,7 @@
 body{
     background-color:#f3f3f3;
 }
-header{
-    background-color:#2c2933;
-    display: flex;
-    justify-content: space-between;
-    padding:5px 30px;
-    align-items: center;
-}
+
 h2{
     
     color: white;

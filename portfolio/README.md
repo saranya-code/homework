@@ -1,27 +1,38 @@
-# 02 Advanced CSS: Portfolio
+# Updated Portfolio
 
-# How to run the project
-# Html Usage :
-
-Created a new Html page as index.html and given the title as "Portfolio". <br />
-Created a header with Employee name and other navigation links as About me, Contact me and Resume. <br />
-Click on the header links to navigate respective .html page. <br />
-Created a banner with recent employee photo. <br />
-Applied semantic tags such as nav,header,main and so on. <br />
-Given detailed description for each page 'About me' ,'contact me', 'Resume'. <br />
-When we resize the page (600px) the responsive layout that adapts to my viewport and change the background color of the header to #6c5f8a. <br />
-Header nav link color changes on hover. <br />
-This HTML follows best practices for class/id naming conventions, indentation, quality comments, etc. <br />git
-
-# Css Usage :
-
-CSS selectors and properties are consolidated and organized properly in sequential order.
+Created a portfolio page.
 
 
-# Resource links:
-Github repository URL : https://github.com/saranya-code/homework/tree/master/portfolio   <br>
-Deployment URL : https://saranya-code.github.io/homework/portfolio/index.html   <br>
-Screenshot :<br>
+# Description
+
+* Created a new Html page as newindex.html and given the title as "Portfolio". 
+* Created a header with Employee name and other navigation links as About me, Portfolio, Contact me and Resume.
+* Click on the header links to navigate respective section in the page 
+* Created a banner with recent employee photo. 
+* Given detailed description for each page 'About me' ,'Portfolio', 'Contact me', 'Resume'.
+* Web application is responsive.
+* Click on 'Resume' link it will resume in PDF format.
+* Click on Footer link such as Resume, LinkedIn, Github it will take to respective page.
+* Added bootcamp Assignments and projects with demo url and github repository.
+
+
+# Tools
+
+* HTML
+* CSS
+* Bootstrap
+
+# Reference
+
+* https://getbootstrap.com/docs/4.6/getting-started/introduction/
+
+
+# Resource links
+
+* Github repository URL : 
+
+* Deployment URL : 
+
+* Screenshot :
 ![Webpage Screenshot](./assets/image/Aboutme.png?raw=true)
-![Webpage Screenshot](./assets/image/contactme.png?raw=true)
-![Webpage Screenshot](./assets/image/resume.png?raw=true) 
+

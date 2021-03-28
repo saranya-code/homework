@@ -10,29 +10,45 @@
     </head>
     <body>
         <header>
-            <h2>Saranya Dayalan</h2>
-            <nav>
-                <a href="#aboutUs">About Me</a>
-                <a href="#portFolio">Portfolio</a>
-                <a href="resume.html">Resume</a>
-                <a href="#contactMe">Contact Me</a>
-
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Saranya Dayalan</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#aboutUs">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#portFolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/image/Saranya_Dayalan.pdf">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactMe">Contact Me</a>
+                        </li>
+                  </ul>
+                </div>
+              </nav>
         </header>
 
         <div class="banner">
             <img src="./assets/image/Saranya_dp.jpeg" height=200px width=200px />  
         </div>
+
         <main class="row mt-5 mb-5 ml-3 mr-3" id="aboutUs">
             <div class="detail-header col-lg-2 col-md-4 col-sm-12 "> About Me  </div>
-            <div class="detail col-lg-10 col-md-8 col-sm-12">
-                
-                Hi I am Saranya Dayalan,currently I am located in Minnesota. I completed my graduation in 2010 , and I am doing full stack development course in University of Minnesota.
-                I have some testing knowledge experience. I would like to learn new technologies and implementing in projects. I am good team player
-                with analytical and problem solving skills. Abiliity to learn quickly and proven to deliver against time effectively.
-                I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. 
-                I am looking for career opportunities.
-            </div>
+                <div class="detail col-lg-10 col-md-8 col-sm-12">
+                    
+                    Hi I am Saranya Dayalan,currently I am located in Minnesota. I completed my graduation in 2010 , and I am doing full stack development course in University of Minnesota.
+                    I have some testing knowledge experience. I would like to learn new technologies and implementing in projects. I am good team player
+                    with analytical and problem solving skills. Abiliity to learn quickly and proven to deliver against time effectively.
+                    I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. 
+                    I am looking for career opportunities.
+                </div>
         </main>
 
         <main class="row mt-5 mb-5 ml-3 mr-3" id="portFolio">
@@ -44,8 +60,8 @@
                         <div class="card h-100">
                             <img src="assets/image/password_generator_homepage.png" class="card-img-top" alt="passwordgenerator">
                             <div class="card-body">
-                            <h5 class="card-title">Password Generator</h5>
-                            <p class="card-text">Password generator application will randomly generate the password based on user selections</p>
+                                <h5 class="card-title">Password Generator</h5>
+                                <p class="card-text">Password generator application will randomly generate the password based on user selections</p>
                             </div>
                             <div class="card-footer">
                                 <a href="https://saranya-code.github.io/Password_Generator/" class="card-link">Demo</a>
@@ -57,8 +73,8 @@
                         <div class="card h-100">
                             <img src="assets/image/DemoURL.gif" class="card-img-top" alt="workdayschedular">
                             <div class="card-body">
-                            <h5 class="card-title">Workday Scheduler</h5>
-                            <p class="card-text">A simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
+                                <h5 class="card-title">Workday Scheduler</h5>
+                                <p class="card-text">A simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
                             </div>
                             <div class="card-footer">
                                 <a href="https://saranya-code.github.io/Work_Day_Scheduler/" class="card-link">Demo</a>
@@ -71,8 +87,8 @@
                         <div class="card h-100">
                             <img src="assets/image/page2.png" class="card-img-top" alt="weaatherdashboard">
                             <div class="card-body">
-                            <h5 class="card-title">Weather Dashboard</h5>
-                            <p class="card-text">A web-based dashboard built to show the current weather in a city of choice and the upcoming five (5) day forecast for that city.</p>
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <p class="card-text">A web-based dashboard built to show the current weather in a city of choice and the upcoming five (5) day forecast for that city.</p>
                             </div>
                             <div class="card-footer">
                                 <a href="https://saranya-code.github.io/Weather_Dashboard/" class="card-link">Demo</a>
@@ -83,27 +99,22 @@
                 </div>
             </div>
         </main>
+
         <main class="row mt-5 mb-5 ml-3 mr-3" id="contactMe">
             <div class="detail-header col-lg-2 col-md-4 col-sm-12 "> Contact Me  </div>
-            <div class="detail col-lg-10 col-md-8 col-sm-12">
-                <div class="row">
-                    <div class="col-4"><i class="fas fa-envelope-open"></i>  saranya28dayalan@gmail.com</div>
-                    <div class="col-4"><i class="fas fa-mobile-alt"></i>  111-222-3333</div>
-                    <div class="col-4"><i class="fas fa-map-marker-alt"></i>  1000 Parklawn Ave, Edina</div>
-                    <div class="col-4"><i class="far fa-file-pdf"></i>  Resume</div>
-                    <div class="col-4"><i class="fab fa-github"></i>  GitHub</div>
-                    <div class="col-4"><i class="fab fa-linkedin"></i>  LinkedIn</div>
+                <div class="detail col-lg-10 col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-4"><a href="mailto:saranya28dayalan@gmail.com" > <i class="fas fa-envelope-open"></i>  saranya28dayalan@gmail.com </a></div>
+                        <div class="col-lg-4"><i class="fas fa-mobile-alt"></i>  111-222-3333</div>
+                        <div class="col-lg-4"><i class="fas fa-map-marker-alt"></i>  1000 Parklawn Ave, Edina</div>
+                        <div class="col-lg-4" id="resume"> <a href="./assets/image/Saranya_Dayalan.pdf"><i class="far fa-file-pdf"></i>  Resume </a></div>
+                        <div class="col-lg-4"><a href="https://github.com/saranya-code" > <i class="fab fa-github"></i>  GitHub </a> </div>
+                        <div class="col-lg-4"><a href="https://www.linkedin.com/in/saranya-dayalan-27822020a/"> <i class="fab fa-linkedin"></i>  LinkedIn </a></div>
                  </div>
            </div>
         </main>
-          
-                        
-                       
-              
-
-
-
-         
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     </body>
-    </html> 
+</html> 
