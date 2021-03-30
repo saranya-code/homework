@@ -34,5 +34,5 @@ Created a portfolio page.
 * Deployment URL : https://saranya-code.github.io/homework/portfolio/newindex.html
 
 * Screenshot :
-![Webpage Screenshot](./assets/image/Aboutme.png?raw=true)
+![Webpage Screenshot](./assets/image/updatedPortfolio.png?raw=true)
 
