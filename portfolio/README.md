@@ -29,9 +29,9 @@ Created a portfolio page.
 
 # Resource links
 
-* Github repository URL : 
+* Github repository URL : https://github.com/saranya-code/homework/tree/master/portfolio
 
-* Deployment URL : 
+* Deployment URL : https://saranya-code.github.io/homework/portfolio/newindex.html
 
 * Screenshot :
 ![Webpage Screenshot](./assets/image/Aboutme.png?raw=true)
